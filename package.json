@@ -9,6 +9,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "format": "prettier --write .",
+    "type-check": "tsc --noEmit",
     "changeset": "changeset",
     "release": "npm run release:version && npm run release:publish",
     "release:version": "changeset version",
