@@ -1,6 +1,6 @@
 {
   "name": "@quibble-dev/tailwindcss-inner-border",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tailwindcss plugin that provides utilities for creating inner borders.",
   "scripts": {
     "build": "tsup",
