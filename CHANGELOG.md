@@ -1,5 +1,11 @@
 # @quibble-dev/tailwindcss-inner-border
 
+## 0.0.4
+
+### Patch Changes
+
+- 0eef2c3: fix: export file types
+
 ## 0.0.3
 
 ### Patch Changes
