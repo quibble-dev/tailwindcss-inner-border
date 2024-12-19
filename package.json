@@ -1,7 +1,7 @@
 {
   "name": "@quibble-dev/tailwindcss-inner-border",
   "version": "0.0.1",
-  "description": "Tailwindcss plugin for adding perfect inner borders.",
+  "description": "Tailwindcss plugin that provides utilities for creating inner borders.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

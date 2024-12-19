@@ -1,2 +1,2 @@
 # tailwindcss-inner-border
-Tailwindcss plugin for adding perfect inner borders.
+Tailwindcss plugin that provides utilities for creating inner borders.
