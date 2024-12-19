@@ -1,0 +1,38 @@
+{
+  "name": "@quibble-dev/tailwindcss-inner-border",
+  "version": "0.0.1",
+  "description": "Tailwindcss plugin for adding perfect inner borders.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quibble-dev/tailwindcss-inner-border.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "plugin",
+    "inner-border",
+    "quibble"
+  ],
+  "author": [
+    "moonlitgrace"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quibble-dev/tailwindcss-inner-border/issues"
+  },
+  "homepage": "https://github.com/quibble-dev/tailwindcss-inner-border#readme",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
