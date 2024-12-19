@@ -36,5 +36,9 @@
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.17"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
