@@ -1,4 +1,5 @@
 # tailwindcss-inner-border
+
 Tailwindcss plugin that provides utilities for creating inner borders.
 
 ## Installation
@@ -18,7 +19,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require("@quibble-dev/tailwindcss-inner-border"),
+    require('@quibble-dev/tailwindcss-inner-border'),
     // ...
   ],
 };
@@ -28,19 +29,25 @@ module.exports = {
 
 Use the `inner-border-{n}` utilities to set the inner border width for all sides of an element:
 
+<!-- prettier-ignore-start -->
 ```html
 <input class="inner-border ...">
 <input class="inner-border-2 ...">
 ```
+<!-- prettier-ignore-end -->
 
 Control the inner border color of an element using the `inner-border-{color}` utilities:
 
+<!-- prettier-ignore-start -->
 ```html
 <input class="inner-border-2 inner-border-rose-500 ...">
 ```
+<!-- prettier-ignore-end -->
 
 Variants and color opacity modifiers may also be used:
 
+<!-- prettier-ignore-start -->
 ```html
 <input class="inner-border-2 inner-border-rose-500/75 hover:inner-border-rose-500 ...">
 ```
+<!-- prettier-ignore-end -->

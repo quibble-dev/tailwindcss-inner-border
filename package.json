@@ -7,7 +7,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   },
   "homepage": "https://github.com/quibble-dev/tailwindcss-inner-border#readme",
   "devDependencies": {
+    "prettier": "^3.4.2",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   },
