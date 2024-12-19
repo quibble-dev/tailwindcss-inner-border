@@ -8,7 +8,11 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "changeset": "changeset",
+    "release": "npm run release:version && npm run release:publish",
+    "release:version": "changeset version",
+    "release:publish": "npm run build && changeset publish"
   },
   "repository": {
     "type": "git",
@@ -21,15 +25,14 @@
     "inner-border",
     "quibble"
   ],
-  "author": [
-    "moonlitgrace"
-  ],
+  "author": "moonlitgrace <moonlitgrace.gaia@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/quibble-dev/tailwindcss-inner-border/issues"
   },
   "homepage": "https://github.com/quibble-dev/tailwindcss-inner-border#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.27.11",
     "prettier": "^3.4.2",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
