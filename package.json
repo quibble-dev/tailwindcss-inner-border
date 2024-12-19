@@ -2,9 +2,6 @@
   "name": "@quibble-dev/tailwindcss-inner-border",
   "version": "0.0.2",
   "description": "Tailwindcss plugin that provides utilities for creating inner borders.",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -32,6 +29,12 @@
     "url": "https://github.com/quibble-dev/tailwindcss-inner-border/issues"
   },
   "homepage": "https://github.com/quibble-dev/tailwindcss-inner-border#readme",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "devDependencies": {
     "@changesets/cli": "^2.27.11",
     "prettier": "^3.4.2",
